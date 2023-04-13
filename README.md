@@ -80,7 +80,6 @@ conda env create -f environment.yml
 ```
 
 ```bash
-conda env create
 conda activate nerf
 ```
 
