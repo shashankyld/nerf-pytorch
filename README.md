@@ -78,9 +78,14 @@ Use the provided `environment.yml` file to install the dependencies into an envi
 ```
 conda env create -f environment.yml
 ```
-
 ```bash
 conda activate nerf
+```
+
+I had issue installing cv2_headless, so I installed it separately
+
+```
+conda install -c fastai opencv-python-headless
 ```
 
 ### Run training!
