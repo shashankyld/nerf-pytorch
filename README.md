@@ -75,6 +75,10 @@ pip install -r requirements.txt
 
 Use the provided `environment.yml` file to install the dependencies into an environment named `nerf` (edit the `environment.yml` if you wish to change the name of the `conda` environment).
 
+```
+conda env create -f environment.yml
+```
+
 ```bash
 conda env create
 conda activate nerf
