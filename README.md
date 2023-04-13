@@ -88,6 +88,8 @@ I had issue installing cv2_headless, so I installed it separately
 conda install -c fastai opencv-python-headless
 ```
 
+Even torchsearchsorted failed to install
+
 ### Run training!
 
 Once everything is setup, to run experiments, first edit `config/lego.yml` to specify your own parameters.
